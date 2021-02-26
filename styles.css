@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height:00vh
+}
+.site-header{
+    display: flex;
+    height: 10vh;
+    width:100%;
+    background-color:transparent;
+
+    
+    
+}
+
+#spacex-logo{
+    align-self: center;
+    width: 300px;
+    height:10vh;
+    margin-left: 150px;
+    
+   
+}
+
+
+    
+
+.navigation{
+    height: 10vh;
+    width: 30%;
+    margin-bottom: 50px;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    border: transparent;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap:nowrap;
+    flex-direction: row;
+
+}
+#end-nav{
+    background-color: transparent;
+    color: white;
+    border: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 400px;
+    margin-right: 55px;
+   
+    
+}
+
+#hamburger{
+    
+    border:transparent;
+    justify-self:self-end;
+    align-self:center;
+    height:30px ;
+    margin-right: 25px;
+}
+.hero{
+    margin-top:-155px;
+    width:100%;
+    height:100vh;
+    background: url('https://pickywallpapers.com/img/2018/6/spacex-rocket-night-take-off-262-269-hd-wallpapers.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    bottom:50px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    font-weight: bold;
+   
+   
+    
+}
+
+#launch{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#mission{
+    font-size:55px;
+    margin-bottom: 60px;
+}
+
+#border{
+    width:205px;
+    height: 70px;
+    border: 2px solid white;
+    text-align: center;
+    vertical-align: middle;
+    align-self: auto;
+}
+
+#replay{
+    margin-top:22px;
+    font-size:15px;
+}
